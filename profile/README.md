@@ -1,7 +1,7 @@
 # Esya Labs
 
 Esya Labs is a biotech company dedicated to diagnose Alzheimer and other neurodegenerative diseases at an early stage so that rapid treatment can prevent the further deterioration of the brain.
-See more here: https://www.esyalabs.com
+See more in our [webpage](https://www.esyalabs.com)
 
 Here are located the GitHub repositories for Esya Labs.
 
