@@ -41,7 +41,7 @@ body:
       description: How should this be done?
       placeholder: by coding, obviously
     validations:
-      required: false
+      required: true
   - type: dropdown
     id: tier
     attributes:
@@ -52,7 +52,15 @@ body:
         - Tier 2
         - Tier 3
     validations:
-      required: false
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: Estimated time
+      description: Estimate the time required to implement this request
+      placeholder: 3 hours
+    validations:
+      required: true
   - type: textarea
     id: additional-info
     attributes:
@@ -61,7 +69,7 @@ body:
       placeholder: Make my wishes true...
       value: "I want new stuff!"
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: urgency
     attributes:

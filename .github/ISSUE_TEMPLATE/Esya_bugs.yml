@@ -53,6 +53,14 @@ body:
         - Tier 3
     validations:
       required: false
+  - type: input
+    id: time
+    attributes:
+      label: Estimated time
+      description: Estimate the time required to fix this bug
+      placeholder: 3 hours
+    validations:
+      required: true
   - type: textarea
     id: additional-info
     attributes:
