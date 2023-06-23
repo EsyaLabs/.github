@@ -1,20 +1,20 @@
-name: 🐞 Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: 🙂 Feature request
+description: Request a new feature
+title: "[Request]: "
+labels: ["request", "triage"]
 assignees:
   - HernandoMV
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this request for a new functionality!
         Please fill out the sections below
   - type: input
     id: requestor
     attributes:
       label: Requestor
-      description: Who wants this bug to be fixed?
+      description: Who wants this request to be implemented?
       placeholder: Yamuna
     validations:
       required: true
@@ -22,15 +22,15 @@ body:
     id: description
     attributes:
       label: Description
-      description: Briefly describe the bug
-      placeholder: it is a nasty creature
+      description: Briefly describe the request
+      placeholder: i want more free time
     validations:
       required: true
   - type: input
     id: justification
     attributes:
       label: Business Justification
-      description: Justify why this bug should be fixed
+      description: Justify why this request should be implemented
       placeholder: to make Esya a better place
     validations:
       required: true
@@ -38,7 +38,7 @@ body:
     id: solution
     attributes:
       label: Proposed solution
-      description: How should this be fixed?
+      description: How should this be done?
       placeholder: by coding, obviously
     validations:
       required: false
@@ -56,17 +56,17 @@ body:
   - type: textarea
     id: additional-info
     attributes:
-      label: What happened?
-      description: If you want to expand on what happened, please do so here
-      placeholder: Everything was working fine, then... caos!!
-      value: "A bug happened!"
+      label: What do you want?
+      description: If you want to expand on what ideas you have, please do so here
+      placeholder: Make my wishes true...
+      value: "I want new stuff!"
     validations:
       required: true
   - type: dropdown
     id: urgency
     attributes:
       label: Version
-      description: How fast would you like this to be solved?
+      description: How fast would you like this to be implemented?
       options:
         - Not urgent
         - It would be nice to have it soon
