@@ -73,7 +73,7 @@ body:
   - type: dropdown
     id: urgency
     attributes:
-      label: Version
+      label: Urgency
       description: How fast would you like this to be implemented?
       options:
         - Not urgent
